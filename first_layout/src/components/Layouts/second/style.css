@@ -1,0 +1,13 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected .tabIcon{
+ color: white;
+ background-color: #414050;
+}
+.cover-card{
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    background-color: transparent !important;
+    right: 0;
+    color: white !important;
+    box-shadow:unset !important
+}
