@@ -2,7 +2,7 @@ import React from "react";
 import MarketingApp from "./components/FirstLayoutApp";
 
 export default () => {
-  console.log("hghgj");
+  console.log("hghgjg");
   return (
     <div>
       <MarketingApp />
