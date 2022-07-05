@@ -6,7 +6,7 @@ import ProductDetails from "./product";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function index() {
-  console.log("firrst");
+  console.log("first");
   return (
     <>
       <Router>
