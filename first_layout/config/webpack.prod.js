@@ -7,6 +7,7 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
+    publicPath: "/first_layout/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
