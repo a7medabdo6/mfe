@@ -15,7 +15,7 @@ const prodConfig = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        firstLayout: `firstLayout@${domain}/firstlayout/latest/remoteEntry.js`,
+        firstLayout: `firstLayout@${domain}/first_layout/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
