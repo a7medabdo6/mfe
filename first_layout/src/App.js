@@ -9,7 +9,7 @@ export default () => {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/product" component={ProductDetails} />
         </Switch>
       </BrowserRouter>
