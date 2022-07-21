@@ -6,13 +6,8 @@ import NewsLetter from "../components/NewsLetter";
 function Main() {
   return (
     <>
-      <header className="App-header">
-        <Header />
-      </header>
-      <div style={{ marginTop: "50px" }}>
-        <Tabscom />
-        <NewsLetter />
-      </div>
+      <Tabscom />
+      <NewsLetter />
     </>
   );
 }

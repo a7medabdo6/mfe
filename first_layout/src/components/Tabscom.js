@@ -91,7 +91,7 @@ export default function BasicTabs() {
       </Box>
       <TabPanel value={value} index={0}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -111,7 +111,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -131,7 +131,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>{" "}
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -151,7 +151,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>{" "}
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -171,7 +171,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>{" "}
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -191,7 +191,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>{" "}
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
@@ -211,7 +211,7 @@ export default function BasicTabs() {
               </Card>
             </Link>
           </Grid>{" "}
-          <Grid item xs={6}>
+          <Grid item xs={6} md={4}>
             <Link to="/product">
               <Card sx={{ maxWidth: "100%" }}>
                 <CardMedia
