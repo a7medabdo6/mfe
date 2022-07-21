@@ -34,7 +34,7 @@ function Header() {
         >
           <Link to="/">
             <img
-              style={{ width: "120px" }}
+              style={{ width: "140px" }}
               src="https://vidills.net/media/logos/22/07/21/r2b1-logo-Hardees-Phase-Three-Star-LLC.png"
             />
           </Link>
