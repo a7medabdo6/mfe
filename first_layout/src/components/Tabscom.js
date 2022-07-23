@@ -89,7 +89,7 @@ export default function BasicTabs() {
           <Tab label={<Label />} {...a11yProps(6)} />
         </Tabs>
       </Box>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={0} style={{ marginTop: "20px" }}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
           <Grid item xs={6} md={4}>
             <Link to="/product">
@@ -100,7 +100,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -120,7 +123,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -140,7 +146,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -160,7 +169,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -180,7 +192,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -200,7 +215,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
@@ -220,7 +238,10 @@ export default function BasicTabs() {
                   image="https://api.oktabletmenu.com/storage/app/items/Wed.191120134322_5190.1574246602.png?w=150&h=0"
                   alt="green iguana"
                 />
-                <CardContent style={{ padding: "10px" }}>
+                <CardContent
+                  style={{ padding: "10px" }}
+                  className="card-content"
+                >
                   <Typography gutterBottom variant="h5" component="div">
                     Lizard
                   </Typography>
